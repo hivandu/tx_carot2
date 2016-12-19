@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <meta name="Description" content="3月8日 告别孤单" />
+    <meta name="Keywords" content="保卫萝卜3" />
+    <title>你这么想点开一定是单身</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="http://ossweb-img.qq.com/images/chanpin/luobo3/public/a20151116bwlb/qq/stylesheets/app.min.css">
+    <!--<link rel="stylesheet" href="ossweb-img/stylesheets/app.min.css">-->
+    <!-- endinject -->
+</head>
+<body>
+<!-- loading -->
+<div id="loading">
+    <div class="loading_carot"></div>
+    <div class="loading_bg"></div>
+    <div class="loading_bg_mask"></div>
+
+    <div class="cont-wrap">
+        <div id="cont" data-pct="0">
+            <svg id="svg" width="60" height="60" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle r="35" cx="50" cy="50" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                <circle id="bar" r="35" cx="50" cy="50" fill="transparent"
+                        stroke-dasharray="565.48" stroke-dashoffset="0" style="stroke-dashoffset: 565.487px;"></circle>
+            </svg>
+
+            <div class="tips">
+                <div class="inner"></div>
+            </div>
+            <div class="clickTips">点击启动</div>
+        </div>
+    </div>
+
+    <div class="loading_mark"></div>
+</div>
+<!-- end loading -->
+
+
+<div id="container">
+    <div class="world-wrap">
+        <div id="world" style="height: 100%;">
+            <div id="canvas" class="content">
+                <!-- scene01 -->
+                <div id="scene01" class="scene active">
+                    <div class="carot sprite_scene01"></div>
+                </div>
+                <!-- end scene01 -->
+
+                <!-- scene02 -->
+                <div id="scene02" class="scene">
+                    <div class="carot sprite_scene02"></div>
+                </div>
+                <!-- end scene02 -->
+
+                <!-- scene03 -->
+                <div id="scene03" class="scene">
+                    <div class="carot sprite_scene03"></div>
+                </div>
+                <!-- end scene03 -->
+
+                <!-- scene04 -->
+                <div id="scene04" class="scene">
+                    <div class="carot sprite_scene04"></div>
+                </div>
+                <!-- end scene04 -->
+
+                <!-- scene05 -->
+                <div id="scene05" class="scene">
+                    <div class="carot sprite_scene05"></div>
+                </div>
+                <!-- end scene05 -->
+
+                <!-- scene06 -->
+                <div id="scene06" class="scene">
+                    <div class="carot sprite_scene06"></div>
+                </div>
+                <!-- end scene06 -->
+
+                <!-- scene07 -->
+                <div id="scene07" class="scene">
+                    <div class="carot sprite_scene07"></div>
+                </div>
+                <!-- end scene07 -->
+
+                <!-- scene11 -->
+                <div id="scene11" class="scene">
+                    <div class="carot sprite_scene11"></div>
+                </div>
+                <!-- end scene11 -->
+
+                <!-- scene12 -->
+                <div id="scene12" class="scene">
+                    <div class="carot sprite_scene12"></div>
+                </div>
+                <!-- end scene12 -->
+
+                <!-- scene13 -->
+                <div id="scene13" class="scene">
+                    <div class="carot sprite_scene13"></div>
+                </div>
+                <!-- end scene13 -->
+
+                <!-- scene14 -->
+                <div id="scene14" class="scene">
+                    <div class="carot sprite_scene14"></div>
+                </div>
+                <!-- end scene14 -->
+
+                <!-- scene15 -->
+                <div id="scene15" class="scene">
+                    <div class="carot sprite_scene15"></div>
+                </div>
+                <!-- end scene15 -->
+
+                <!-- scene16 -->
+                <div id="scene16" class="scene">
+                    <div class="carot sprite_scene16"></div>
+                </div>
+                <!-- end scene16 -->
+
+                <!-- scene18 -->
+                <div id="scene18" class="scene">
+                    <div class="carot sprite_scene18"></div>
+                </div>
+                <!-- end scene18 -->
+
+                <!-- common sprites -->
+                <div class="room"></div>
+                <div class="room_orange02"></div>
+                <div class="room_green02"></div>
+                <div class="spider"></div>
+                <div class="mask2"></div>
+                <!-- end common sprites -->
+            </div>
+
+            <div id="canvas2">
+                <!-- scene18 -->
+                <div id="scene08" class="scene">
+                    <div class="scene08"></div>
+                </div>
+                <!-- end scene18 -->
+
+                <!-- common sprites -->
+                <div class="room"></div>
+                <!-- end common sprites -->
+            </div>
+
+            <img id="decode" src="" alt="" style="display: none;"/>
+
+            <!-- touch area -->
+            <div id="touch-area"></div>
+            <!-- end touch area -->
+
+            <!-- end common sprites -->
+            <div class="face"></div>
+            <div class="face02"></div>
+            <div class="mask"></div>
+            <div class="finger"></div>
+            <div class="boom-tips">
+                <div class="tips">
+                    <div class="inner"></div>
+                </div>
+
+                <p class="txt">点击破坏墙壁</p>
+            </div>
+            <!-- common sprites -->
+        </div>
+        <div class="bg-color"></div>
+    </div>
+
+    <div class="logo-show"></div>
+
+    <!-- share -->
+    <div class="share">
+        <div class="share-btn">
+            <a href="http://s.p.qq.com/pub/jump?d=AAAOwyAQ&_wv=1027" onclick="pgvSendClick({hottag:'a20151116bwlb.qq.index.btn.follow'});"><img src="ossweb-img/images/btn-share01.png" alt=""/></a>
+            &nbsp;&nbsp;
+            <a href="http://luobo3.qq.com/m/#" onclick="pgvSendClick({hottag:'a20151116bwlb.qq.index.btn.home'});"><img src="ossweb-img/images/btn-share02.png" alt=""/></a>
+        </div>
+    </div>
+    <!-- end share -->
+</div>
+
+<div class="subtitle">
+    <p class="chs"></p>
+    <p class="eng"></p>
+</div>
+
+<div class="tips-arrow" style="">
+    <div class="slider-arrow"></div>
+    <div class="slider-arrow slider-arrow02"></div>
+</div>
+
+<audio id="audio" src=""></audio>
+<!-- inject:js -->
+<script src="http://ossweb-img.qq.com/images/chanpin/luobo3/public/a20151116bwlb/qq/scripts/app.js"></script>
+<!--<script src="ossweb-img/scripts/app.js"></script>-->
+<!-- endinject -->
+
+<script src="http://pingjs.qq.com/ping_tcss_ied.js"></script>
+<script>if(typeof(pgvMain) == 'function')pgvMain();</script>
+<script src="http://ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+<script>
+    TGMobileShare({
+        shareTitle:'你这么想点开一定是单身', //不设置或设置为空时，页面有title，则调取title
+        shareDesc:'3月8日 告别孤单', //不设置或设置为空时，页面有Description，则调取Description
+        shareImgUrl:'http://ossweb-img.qq.com/images/chanpin/luobo3/public/a20151116bwlb/qq/images/share-icon.jpg', //分享图片尺寸200*200，且填写绝对路径
+        shareLink:'http://luobo3.qq.com/cp/a20151116bwlb/qq/index.html', //分享链接要跟当前页面同域名(手Q分享有这个要求) ,不设置或设置为空时，默认调取当前URL
+        actName:'a20151116bwlb.qq' //点击流命名，用于统计分享量，专题一般采用目录名称如a20151029demo
+    });
+</script>
+</body>
+</html>
